@@ -1,85 +1,71 @@
 
+# 📚 Library Project
+
 <img src="https://github.com/user-attachments/assets/ba7796c5-339b-4026-ad8c-d537a096dd20" alt="lip" style="width: 400px; height: 400px;">
 
+This program is a simple **Library Management System**. It acts like a small library where books are stored, and you (as the librarian or shop owner) can:
 
-
-
-📚 Library Project — README
-
-This program is a simple Library Management System. It acts like a small library where books are stored, and you (as the librarian or shop owner) can:
-
-Add new books
-
-Display all books
-
-Search for books
-
-Update book details
-
-Delete books (for example, when a book is sold)
-
-Count how many books are stored
+* Add new books
+* Display all books
+* Search for books
+* Update book details
+* Delete books (for example, when a book is sold)
+* Count how many books are stored
 
 It gives you the basic tools to manage a small collection of books.
 
-🧭 How to Use the Commands
+---
 
-1) ➕ Add a new book
+## 🧭 How to Use the Commands
 
-You enter: Title, Author, ID.
+### 1) ➕ Add a new book
 
-The book is stored in the first empty slot.
+* You enter: **Title, Author, ID**.
+* The book is stored in the first empty slot.
+* Use this when you want to add new data to the library.
 
-Use this when you want to add new data to the library.
+### 2) 📋 Display all books
 
-2) 📋 Display all books
+* Prints all stored books.
+* Use this to check everything saved in the library.
 
-Prints all stored books.
+### 3) 🔍 Search by ID
 
-Use this to check everything saved in the library.
+* You enter a book **ID**.
+* Shows the book with that ID if found.
+* Use this if you know the ID code.
 
-3) 🔍 Search by ID
+### 4) 🏷️ Search by Title
 
-You enter a book ID.
+* You enter a book **Title**.
+* Shows the book with that title if found.
+* Use this if you remember the name but not the ID.
 
-Shows the book with that ID if found.
+### 5) 🗑️ Delete a book
 
-Use this if you know the ID code.
+* ⚠️ Important: you must enter the **ID**, not the title (bug in code).
+* Removes the book from the library.
+* Use this when you want to remove a record (for example, after selling the book).
 
-4) 🏷️ Search by Title
+### 6) ✏️ Update book information
 
-You enter a book Title.
+* You enter a book **ID**.
+* Then enter new **Title** and new **Author**.
+* Use this if you want to change or correct a book’s details.
 
-Shows the book with that title if found.
+### 7) 🔢 Count books
 
-Use this if you remember the name but not the ID.
+* Shows how many books exist in the library.
+* ⚠️ Counter may increase incorrectly if repeated many times without restart (bug in code).
+* Use this to know how many books you currently have.
 
-5) 🗑️ Delete a book
+### 8) 🚪 Exit
 
-⚠️ Important: you must enter the ID, not the title (bug in code).
+* Ends the program.
+* Use this when you finish managing the library.
 
-Removes the book from the library.
+---
 
-Use this when you want to remove a record (for example, after selling the book).
+## ✅ Summary
 
-6) ✏️ Update book information
-
-You enter a book ID.
-
-Then enter new Title and new Author.
-
-Use this if you want to change or correct a book’s details.
-
-7) 🔢 Count books
-
-Shows how many books exist in the library.
-
-⚠️ Counter may increase incorrectly if repeated many times without restart (bug in code).
-
-Use this to know how many books you currently have.
-
-8) 🚪 Exit
-
-Ends the program.
-
-Use this when you finish managing the library.
+This program is a **mini library system**. It allows you to manage a collection of books just like a shop owner or librarian: add, search, update, delete, or count books. You interact with it using the menu and by entering the required data when asked.
